@@ -27,9 +27,7 @@ setAlert(null);
     },2000);
     
   }
-
-  // const [textmode, setTextMode] = useState('light');
-
+ // const [textmode, setTextMode] = useState('light');
   const toggleMode = ()=>{
     if(mode === 'light'){
       setMode('dark');
